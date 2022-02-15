@@ -1077,7 +1077,7 @@ body.light-theme{
   }
 
   .services__container{
-    grid-template-columns: repeat(3, 192px );
+    grid-template-columns: repeat(2, 192px );
   }
 
   .services__card{
@@ -1107,8 +1107,14 @@ body.light-theme{
     padding: 1.5rem 2rem;
   }
 
-  .contact__container{
+  /* .contact__container{
     column-gap: 6rem;
+  } */
+
+  .contact__container{
+    grid-template-columns: repeat(1git , max-content);
+    justify-content: center;
+    column-gap: 3rem;
   }
 
   .footer__social-link{
